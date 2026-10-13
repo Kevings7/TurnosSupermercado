@@ -55,11 +55,11 @@ La reposición puede dejarse para más tarde si no hay suficiente gente para hac
 
 ## Qué hace falta procesar
 
-Para hacer el reparto hay que tener en cuenta qué trabajadores están disponibles, sus horarios y las tareas que hay que hacer.
+Para hacer el reparto hay que analizar qué trabajadores están disponibles, sus horarios y las tareas que hay que hacer.
 
-También hay que comprobar qué personas pueden hacer cada tarea y quién estará fuera de la tienda cuando haya recogida de palés.
+También hay que validar qué personas pueden hacer cada tarea y tener en cuenta quién estará fuera de la tienda cuando haya recogida de palés.
 
-Si cambia la disponibilidad de alguien, hay que volver a repartir las tareas que se hayan quedado sin cubrir.
+Si cambia la disponibilidad de alguien, hay que analizar de nuevo el reparto para saber qué tareas se han quedado sin cubrir y reorganizarlas.
 
 ## Por qué hace falta que esté en la nube
 
