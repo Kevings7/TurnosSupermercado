@@ -71,7 +71,10 @@ Tener el cuadrante accesible desde distintos dispositivos permitiría consultar 
 
 ## Elección del lenguaje
 
-Para turnosSupermercado, se ha inferido en usar Go como lenguaje de programación para modelar el dominio.
+
+TurnosSupermercado muestra un claro problema de planificación.
+
+EL lenguaje de programación Go nos ofrece las herramientas necesarias para tratar con los retos que ofrece un problema de este estilo. 
 
 Go ofrece tipado estático y comprobación de tipos en compilación, lo que permite representar de forma explícita conceptos del dominio como trabajadores, tareas o intervalos temporales y detectar errores antes de ejecutar el programa.
 
