@@ -3,7 +3,7 @@ package turnos
 import "time"
 
 type RepartoDeTareas struct {
-	fecha           time.Time
-	idsTrabajadores map[string]struct{}
-	huecos          []Hueco
+	fecha               time.Time
+	huecosPorTrabajador map[string][]Hueco
+	huecosSinCubrir     []Hueco
 }
