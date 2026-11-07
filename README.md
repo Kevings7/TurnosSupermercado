@@ -69,18 +69,6 @@ Esto hace que la planificación dependa de un único ordenador. Para consultar o
 
 Tener el cuadrante accesible desde distintos dispositivos permitiría consultar y modificar la misma planificación sin depender de ese único ordenador.
 
-## Elección del lenguaje
-
-
-TurnosSupermercado muestra un claro problema de planificación.
-
-EL lenguaje de programación Go nos ofrece las herramientas necesarias para tratar con los retos que ofrece un problema de este estilo. 
-
-Go ofrece tipado estático y comprobación de tipos en compilación, lo que permite representar de forma explícita conceptos del dominio como trabajadores, tareas o intervalos temporales y detectar errores antes de ejecutar el programa.
-
-Además, permite encapsular el estado mediante campos no exportados y controlar la creación de los objetos del dominio a través de constructores. Su tratamiento explícito de los errores como valores también encaja bien con la necesidad de representar y devolver errores propios del dominio cuando no se cumplen sus invariantes.
-
-Por estas razones, Go resulta adecuado para construir un modelo pequeño, tipado y controlado sobre el que desarrollar posteriormente la lógica de negocio.
 
 ## Juego de rol
 
