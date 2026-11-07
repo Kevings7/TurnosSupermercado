@@ -1,2 +1,2 @@
 lenguaje: go
-entidad: src/turnos/reparto.go
+entidad: internal/turnos/reparto.go
