@@ -1,7 +1,9 @@
 package turnos
 
+type TrabajadorID string
+
 type Trabajador struct {
-	nombre           string
-	disponibilidad   []Intervalo
-	tareasPermitidas map[string]struct{}
+	Nombre           string
+	Disponibilidad   []Intervalo
+	TareasPermitidas map[string]struct{}
 }
