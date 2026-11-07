@@ -1,7 +1,9 @@
 package turnos
 
+type Tarea string
+
 type Hueco struct {
-	tarea     string
-	intervalo Intervalo
-	aplazable bool
+	Tarea     Tarea
+	Intervalo Intervalo
+	Aplazable bool
 }
