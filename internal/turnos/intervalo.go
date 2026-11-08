@@ -2,7 +2,7 @@ package turnos
 
 import "time"
 
-type Intervalo struct {
+type Intervalo struct { 
 	inicio time.Time
 	fin    time.Time
 }
