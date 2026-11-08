@@ -1,5 +1,5 @@
 package turnos
 
 type Plantilla struct {
-	TrabajadoresPorID map[TrabajadorID]Trabajador
+	trabajadoresPorID map[TrabajadorID]Trabajador
 }
