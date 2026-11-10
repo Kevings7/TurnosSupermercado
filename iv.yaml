@@ -1,2 +1,2 @@
 lenguaje: go
-entidad: internal/turnos/cuadrante.go
+entidad: internal/turnos/repartos.go
