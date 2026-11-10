@@ -2,6 +2,6 @@ package turnos
 
 type Trabajador struct {
 	nombre           string
-	disponibilidad   []Intervalo
+	disponibilidad   []TramoHorario
 	tareasPermitidas map[Tarea]struct{}
 }
