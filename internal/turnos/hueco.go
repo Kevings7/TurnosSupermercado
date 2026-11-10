@@ -4,7 +4,7 @@ type Tarea string
 
 type Hueco struct {
 	tarea        Tarea
-	intervalo    Intervalo
+	periodo      Intervalo
 	aplazable    bool
 	trabajadorID *TrabajadorID
 }
