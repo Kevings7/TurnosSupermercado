@@ -1,3 +1,5 @@
 package turnos
 
-type Plantilla map[TrabajadorID]Trabajador
+type Plantilla struct {
+	trabajadores []*Trabajador
+}
